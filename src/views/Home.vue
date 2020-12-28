@@ -59,7 +59,7 @@ export default defineComponent({
         console.log(response);
         return true;
       } catch (e) {
-        alert("Error " + e.message);
+        alert("Error:doFacebookLogin " + e.message);
       }
     };
 

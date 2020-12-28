@@ -11,12 +11,6 @@ export default () => {
   const FBLoginPlugin = inject("FACEBOOK_LOGIN_PLUGIN") as FacebookLoginPlugin;
 
   const facebookLogin = async () => {
-    const response = await FBLoginPlugin.getCurrentAccessToken();
-    debugger;
-
-    console.log("isFacebookLoggedIn response " + response);
-    state.value.accessToken = response?.accessToken;
-    if (response) return state.value.accessToken;
 
     const FACEBOOK_PERMISSIONS = [
       "email",
