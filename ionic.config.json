@@ -1,0 +1,7 @@
+{
+  "name": "fblogin1",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}
